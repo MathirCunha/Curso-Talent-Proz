@@ -1,0 +1,18 @@
+Aula GIT Luis
+
+Comandos do GIT
+
+1
+git init: Inicializa um repositório git no computador
+
+git status: verifica o estado atual do arquivo
+
+git add "nome_do_arquivo.txt"
+
+git log: verifica se há arquivos commitados
+
+git commit -m: 
+
+git config user.name: verifica o nome do usuário
+
+git config user.mail: verifica o email do usuário
