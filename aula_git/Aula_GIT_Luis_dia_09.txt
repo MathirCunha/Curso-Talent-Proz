@@ -16,3 +16,76 @@ git commit -m:
 git config user.name: verifica o nome do usuário
 
 git config user.mail: verifica o email do usuário
+
+Continuação de comandos gitbash
+
+Para abrir o gitbash no vs code, vá no menu e selecione terminal e mude pra bash.
+
+Ao começar um novo projeto ou contribuir para um existente, esses comandos são fundamentais:
+
+>>git init: 
+Inicia um novo repositório Git no diretório atual.
+
+>>git clone <URL do Repositório>
+Clona um repositório existente para o diretório local.
+
+
+Gerenciando Alterações:
+
+Quando você está trabalhando em seu código, esses comandos ajudam a gerenciar suas alterações:
+
+>>git add <nome do arquivo>
+Adiciona alterações específicas para serem incluídas no próximo commit.
+
+>>git commit -m "Mensagem do commit"
+Registra as alterações no repositório com uma mensagem descritiva.
+
+>>git status
+Exibe o status atual das alterações no diretório de trabalho.
+
+Explorando o Histórico:
+Entender o histórico de alterações é crucial; esses comandos ajudam a visualizar e navegar por ele:
+
+>>git log
+Exibe o histórico de commits.
+
+>>git diff
+Mostra as diferenças entre o estado de trabalho atual e a última versão confirmada.
+
+Branching e Merging:
+Trabalhar com branches permite um desenvolvimento mais organizado e colaborativo:
+
+>>git branch
+Lista todas as branches no repositório.
+
+>>git checkout -b <nome da branch>
+Cria e muda para uma nova branch.
+
+>>git merge <nome da branch>
+Incorpora as alterações de uma branch para outra.
+
+Atualizações Remotas:
+Colaborar com outros desenvolvedores envolve atualizações remotas; esses comandos são essenciais:
+
+>>git remote add origin <URL do repositório remoto>
+Adiciona um repositório remoto.
+
+>>git push -u origin <nome da branch>
+Envia os commits locais para o repositório remoto.
+
+>>git pull origin <nome da branch>
+Atualiza o repositório local com as alterações remotas.
+
+Resolvendo Conflitos:
+Em situações de conflitos, é crucial saber como resolvê-los adequadamente:
+
+>>git fetch
+Recupera informações do repositório remoto sem fazer merge.
+
+>>git merge origin/<nome da branch>
+Incorpora as alterações remotas na branch local.
+
+>>git mergetool
+Abre uma ferramenta para ajudar a resolver conflitos de merge.
+
+Ao incorporar esses comandos no seu dia a dia, você estará mais bem equipado para gerenciar projetos Git de maneira eficiente e colaborativa. Lembrando sempre de adaptar esses comandos às necessidades específicas do seu fluxo de trabalho.
