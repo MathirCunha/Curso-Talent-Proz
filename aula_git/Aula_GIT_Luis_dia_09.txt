@@ -41,8 +41,7 @@ Adiciona alterações específicas para serem incluídas no próximo commit.
 Registra as alterações no repositório com uma mensagem descritiva.
 
 >>git status
-Exibe o status atual das alterações no diretório de trabalho.
-
+Exibe o status atual das alterações no diretório de trabalho
 Explorando o Histórico:
 Entender o histórico de alterações é crucial; esses comandos ajudam a visualizar e navegar por ele:
 
