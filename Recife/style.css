@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5%;
+    padding: 0%;
+}
+
+h1 {
+    color: rgb(31, 27, 27);
+    text-align: center;
+}
+
+.horizontal-list {
+    list-style-type: none; /* retira os marcadores (bullets)*/
+    padding: 10;
+    margin: 1%;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin-right: auto;
+    padding: 1%;
+
+}
+.horizontal-list a {
+    color: #d89400; 
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .horizontal-list a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
