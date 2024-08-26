@@ -3,7 +3,10 @@ body {
     margin: 5%;
     padding: 0%;
 }
-
+h1 {
+  color: rgb(248, 146, 4);
+  text-align: center;
+}
 .horizontal-list {
     list-style-type: none; /* retira os marcadores (bullets)*/
     padding: 10;
@@ -34,7 +37,3 @@ body {
     height: auto;
   }
 
-h1 {
-    color: rgb(31, 27, 27);
-    text-align: center;
-}
