@@ -4,11 +4,6 @@ body {
     padding: 0%;
 }
 
-h1 {
-    color: rgb(31, 27, 27);
-    text-align: center;
-}
-
 .horizontal-list {
     list-style-type: none; /* retira os marcadores (bullets)*/
     padding: 10;
@@ -35,6 +30,11 @@ h1 {
   }
   
   .image-container img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
+
+h1 {
+    color: rgb(31, 27, 27);
+    text-align: center;
+}
