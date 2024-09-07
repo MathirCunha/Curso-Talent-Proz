@@ -7,23 +7,23 @@ h1 {
   color: rgb(248, 146, 4);
   text-align: center;
 }
-.horizontal-list {
+.menu-principal {
     list-style-type: none; /* retira os marcadores (bullets)*/
     padding: 10;
     margin: 1%;
 }
-.horizontal-list li {
+.menu-principal li {
     display: inline-block;
     margin-right: auto;
     padding: 1%;
 
 }
-.horizontal-list a {
+.menu-principal a {
     color: #d89400; 
     text-decoration: none; /* Remove underline */
   }
   
-  .horizontal-list a:hover {
+  .menu-principal a:hover {
     text-decoration: underline; /* Add underline on hover */
   }
 .image-container {
@@ -36,4 +36,26 @@ h1 {
     max-width: 50%;
     height: auto;
   }
+
+/* Exercício flex Froggy */
+
+
+estágio 1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+estágio 2 {
+  display: flex;
+  justify-content: center;
+}
+
+estagio 3 {
+  justify-content: space-around;
+}
+
+estagio 4 {
+  justify-content: space-between
+}
+
 
